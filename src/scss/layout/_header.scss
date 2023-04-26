@@ -1,0 +1,38 @@
+
+@media (max-width: 480px){
+    .contenido-header{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        h1{
+            margin-bottom: 4rem;
+            align-items: center;
+        }
+    .navegacion-principal{
+        margin-top: 0;
+    }
+    }
+}
+
+.contenido-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $colorHeader;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    
+    h1{
+        font-weight: bold;
+        color: $blanco;
+    }
+    .navegacion-principal{
+        display: flex;
+        gap: 2rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+        a{
+            color: $blanco;
+        }
+    }
+}

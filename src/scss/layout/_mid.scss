@@ -1,0 +1,67 @@
+
+.medio {
+    position: relative;
+  }
+  
+  .imagen-medio {
+    display: block;
+    position: relative;
+    img{
+        height: 40rem;
+        opacity: .9;
+    }
+  }
+
+  .boton-wapp {
+    position: absolute;
+    bottom: 40px;
+    right: 37%;
+    z-index: 1;
+  }
+
+  .boton-wapp button {
+    background-color: #16cf1c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    a{
+        color: $blanco;
+        font-size: 3rem;
+    }
+  }
+
+@media (max-width: 480px){
+  
+.medio {
+  position: relative;
+}
+
+.imagen-medio {
+  display: block;
+  position: relative;
+  img{
+      height: auto;
+      opacity: .9;
+  }
+}
+
+.boton-wapp {
+  position: absolute;
+  bottom: 10px;
+  right: 25%;
+  z-index: 1;
+}
+
+.boton-wapp button {
+  background-color: #16cf1c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  a{
+      color: $negro;
+      font-size: 1.5rem;
+  }
+}
+}

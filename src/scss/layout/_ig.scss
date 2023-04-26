@@ -1,0 +1,29 @@
+.datos-contacto{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 20rem 0 20rem;
+    align-items: center;
+    p{
+        text-align: center;
+    }
+}
+@media (max-width: 480px){
+    .sect{
+        width: 100%;
+        .datos-contacto{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+
+.navegacion-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+}
+

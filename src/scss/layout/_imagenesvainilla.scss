@@ -1,0 +1,24 @@
+@media (min-width: 480px){
+.fotos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+    img{
+        height: 50rem;
+        border: 1px solid $gris;
+    }
+}}
+
+@media (max-width: 480px){
+.fotos{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    img{
+        border: 1px solid $gris;
+    }
+}
+}

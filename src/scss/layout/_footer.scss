@@ -1,0 +1,54 @@
+.datos-contacto{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    .dato1{
+        margin-left: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        a{
+            color: $negro;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .dato2{
+        margin-right: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        a{
+            color: $negro;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    img{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+.contenido-footer{
+    background-color: $colorHeader;
+    display: flex;
+    justify-content: space-between;
+    .copy{
+        display: flex;
+        margin-top: 5rem;
+        p{
+            color: $blanco;
+        }
+    }
+    .navegacion-footer{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        a{
+            color: $blanco;
+            font-size: 2rem;
+            margin-right: 3rem;
+        }
+    }
+}
